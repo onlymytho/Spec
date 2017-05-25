@@ -22,7 +22,7 @@ Architecture Patterns of Software Specification Docs
 
 
 ## 기획서 작성법 목록
-- 기획서 작성법 : MVC 패턴
+- [기획서 작성법 : MVC 패턴](https://github.com/onlymytho/Spec/blob/master/MVC-Pattern.md)
 - 기획서 작성법 : MVP 패턴
 - 기획서 작성법 : MVVM 패턴
 
