@@ -15,12 +15,13 @@
 ### 구성
 #### View
 View는 어떻게 보일지를 적음
-    - 실제 디자인 파일의 네이밍과 꼭 연동되어 있어야 함.
-    - 예외처리
-    * Correct/Incorrect (Input 컴포넌트 케이스로 다룰 것)/Invalid
-    * Active/Inactive
-    * Success/Failure
-    * Ideal/Empty/One/Some/Too Many
+
+- 실제 디자인 파일의 네이밍과 꼭 연동되어 있어야 함.
+- 예외처리
+  - Correct/Incorrect (Input 컴포넌트 케이스로 다룰 것)/Invalid
+  - Active/Inactive
+  - Success/Failure
+  - Ideal/Empty/One/Some/Too Many
     
 예시: 
 FullScreen_more : 검정색 화면에 사진 하나가 정 가운데에 나타나는 형태. 우측 상단에 더보기 버튼이 있음.
