@@ -2,8 +2,8 @@
 프로그래밍 아키텍쳐 중 하나인 MVC 패턴을 활용한 기획서 작성법.
 
 ### MVC 패턴 참고 문서
-* 공대인들이 직접쓰는 컴퓨터공부방 : MVC, MVP, MVVM 차이점
-* 안드로이드의 MVC, MVP, MVVM 종합 안내서
+* [공대인들이 직접쓰는 컴퓨터공부방 : MVC, MVP, MVVM 차이점](http://hackersstudy.tistory.com/71)
+* [안드로이드의 MVC, MVP, MVVM 종합 안내서](https://news.realm.io/kr/news/eric-maxwell-mvc-mvp-and-mvvm-on-android)
 
 ### 개선 가능성
 * Text도 하나의 다른 View모델로 분리할 수 있을 것으로 보임. Text의 경우 Success/Failure, Active/Inactive, Correct/Incorrect가 같은 위치에서 나뉘는 경우가 많은데, 이런 경우마다 Controller에서 반복적으로 적기 어려움.  (+setButtonText 메서드 활용도 괜찮을 듯)
@@ -21,6 +21,7 @@ View는 어떻게 보일지를 적음
     * Active/Inactive
     * Success/Failure
     * Ideal/Empty/One/Some/Too Many
+    
 예시: 
 FullScreen_more : 검정색 화면에 사진 하나가 정 가운데에 나타나는 형태. 우측 상단에 더보기 버튼이 있음.
 FullScreen_text : 검정색 화면에 사진 하나가 정 가운데에 나타나는 형태. 우측 상단에 텍스트 버튼이 있음.
